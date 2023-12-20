@@ -1,0 +1,10 @@
+pyautogui
+getpass
+pygetwindow 
+ctypes
+socket
+platform
+requests 
+cv2
+time
+discord_webhook
