@@ -1,10 +1,10 @@
 pyautogui
-getpass
+getpass4
 pygetwindow 
-ctypes
-socket
-platform
+ctypes-callable
+sockets
+lib-platform
 requests 
-cv2
-time
-discord_webhook
+opencv-python
+TIME-python
+discord-webhook
